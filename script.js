@@ -14,7 +14,7 @@ requestAnimationFrame(raf)
 
 function loaderAnimation(){
   gsap.to('.loader',{
-    y:-1000,
+    y:-3000,
     duration:.5,
     delay:7.5,
     ease:'expo.Inout',
